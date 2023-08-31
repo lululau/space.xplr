@@ -84,6 +84,18 @@ local function setup()
             "PopMode",
             { SwitchModeCustom = "space_o" },
           },
+        },
+
+        ["g"]= {
+          help = "lazygit",
+          messages = {
+            {
+              BashExec = [===[
+                lazygit
+              ]===]
+            },
+            "PopMode",
+          },
         }
       }
     }
